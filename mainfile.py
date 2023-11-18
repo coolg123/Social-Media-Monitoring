@@ -59,7 +59,7 @@ def start():
 
     print("Time taken to scrape the data: ", time_taken)
 
-    dbname = 'D:/Programming1/Python/web-scraping/Social_media_monitoring/social_media_monitoring.db'
+    dbname = 'social_media_monitoring.db'
 
     tablename = search.replace(" ", "") + "_table"
           
